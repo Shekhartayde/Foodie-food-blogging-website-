@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 import slugify from "slugify"
-import geoCoder from "../utils/geocoder"
+import geoCoder from "../utils/geocoder.js"
 
 
 const postSchema=new mongoose.Schema({
