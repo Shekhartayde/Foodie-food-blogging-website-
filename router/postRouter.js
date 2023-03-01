@@ -1,5 +1,5 @@
 import express from "express"
-import { addPost, deletePost, getAllPosts, getById, getPostsInRadius, likePost, updatePost } from "../controller/post-controller.js"
+import { addPost, deletePost, getAllPosts, getById, getPostsInRadius, updatePost } from "../controller/post-controller.js"
 import multer from "multer"
 import path from "path"
 
