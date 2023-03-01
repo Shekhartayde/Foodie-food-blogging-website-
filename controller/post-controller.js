@@ -1,7 +1,7 @@
 import mongoose from "mongoose"
-import Post from "../model/Post"
-import User from "../model/User"
-import geoCoder from "../utils/geocoder"
+import Post from "../model/Post.js"
+import User from "../model/User.js"
+import geoCoder from "../utils/geocoder.js"
 import multer from "multer"
 import path from "path"
 
